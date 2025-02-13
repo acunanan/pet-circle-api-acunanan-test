@@ -1,9 +1,9 @@
-# pet-circle-api-acunanan
+# pet-circle-api-acunanan-test
 
 Below are the steps on how you can setup and run the test for CRUD of pet resource API.
 
 1. Clone the project from my public repository by running this command in the terminal
-``` git clone https://github.com/acunanan/pet-circle-api-acunanan.git
+``` git clone https://github.com/acunanan/pet-circle-api-acunanan-test.git ```
 
 2. Install the packages from this project by running this command in the terminal
 ``` npm install ```
