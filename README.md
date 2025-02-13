@@ -17,5 +17,7 @@ Below are the steps on how you can setup and run the test for CRUD of pet resour
 4. To run all specs at once you can run this command in the terminal
 ``` npm run test:petApi ```
 
-To view the generated reported, you can go to this directory to open the report <br>
+To view the generated reported, you can go to this directory to open the report. <br>
 ``` cypress/reports/html/index.html ```
+
+Please note that there are validations that are not enforce during testing in POST and PUT method which results to failure of some test cases.
