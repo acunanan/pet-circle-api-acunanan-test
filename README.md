@@ -9,10 +9,13 @@ Below are the steps on how you can setup and run the test for CRUD of pet resour
 ``` npm install ```
 
 3. to run specific test file you can run any of this command in the terminal
-``` npm run test:createNewPet ```
-``` npm run test:getPetById ```
-``` npm run test:updatePetById ```
-``` npm run test:deletePetById ```
+``` npm run test:createNewPet ```<br>
+``` npm run test:getPetById ```<br>
+``` npm run test:updatePetById ```<br>
+``` npm run test:deletePetById ```<br>
 
 4. To run all specs at once you can run this command in the terminal
 ``` npm run test:petApi ```
+
+To view the generated reported, you can go to this directory to open the report
+``` cypress/reports/html/index.html ```
