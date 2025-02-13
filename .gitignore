@@ -1,0 +1,6 @@
+cypress/reports/
+cypress/screenshots/
+
+# Node modules (if not already ignored)
+node_modules/
+package-lock.json

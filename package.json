@@ -1,0 +1,31 @@
+{
+  "name": "pet-circle-api-acunanan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:petApi": "cypress run cypress/e2e/api/pet-api/*.js",
+    "test:createNewPet": "cypress run --spec cypress/e2e/api/pet-api/createNewPetSpec.cy.js",
+    "test:getPetById": "cypress run --spec cypress/e2e/api/pet-api/getPetSpec.cy.js",
+    "test:updatePetById": "cypress run --spec cypress/e2e/api/pet-api/updatePetSpec.cy.js",
+    "test:deletePetById": "cypress run --spec cypress/e2e/api/pet-api/deletePetSpec.cy.js"
+  },
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "overwrite": false,
+    "html": true,
+    "json": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.0.3",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
