@@ -55,7 +55,7 @@ describe('POST /pet API Test', () => {
     });
    });
 
-   //the validation for this not working marking as defect in the api
+   //the validation for this scenario is not working marking as defect in the api
    it('should not create a new pet when name is null', () => {
     cy.fixture("createPetTemplate").then((userData) => {
       setRequestField(userData, 'name', null); 
@@ -63,15 +63,11 @@ describe('POST /pet API Test', () => {
     });
    });
 
-   //the validation for this not working marking as defect in the api
+   //the validation for this scenario is not working marking as defect in the api
    it('should not create a new pet when photoUrls is null', () => {
     cy.fixture("createPetTemplate").then((userData) => {
       setRequestField(userData, 'photoUrls', null); 
       cy.createNewPet(userData, 400);
     });
    });
-
-   
-
-
-  });
+});
