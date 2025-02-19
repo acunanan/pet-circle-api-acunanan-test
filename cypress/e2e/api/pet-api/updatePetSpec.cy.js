@@ -97,7 +97,7 @@ describe('PUT /pet API Test', () => {
         }); 
       });
 
-  //the validation for this not working marking as defect in the api
+  //the validation for this scenario is not working marking as defect in the api
   it('should not update a pet data when name is null', () => {
     cy.get('@petId').then((petId) => {
       cy.fixture("createPetTemplate").then((userData) => {
@@ -109,7 +109,7 @@ describe('PUT /pet API Test', () => {
       }); 
     });
 
-//the validation for this not working marking as defect in the api
+//the validation for this scenario is not working marking as defect in the api
 it('should not update a pet data when photoUrls is null', () => {
   cy.get('@petId').then((petId) => {
     cy.fixture("createPetTemplate").then((userData) => {
